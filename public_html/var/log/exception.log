@@ -1,0 +1,257 @@
+2016-06-30T13:59:27+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Layout_Training_Block_Hello_Block' in /home/frouffineau/Dev/magento-train/public_html/app/Mage.php:595
+Stack trace:
+#0 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('layout_training...', Array)
+#2 /home/frouffineau/Dev/magento-train/public_html/app/code/local/Layout/Training/controllers/HelloController.php(12): Mage_Core_Model_Layout->createBlock('layout_training...', 'root')
+#3 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Layout_Training_HelloController->layoutAction()
+#4 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('layout')
+#5 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 /home/frouffineau/Dev/magento-train/public_html/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#8 /home/frouffineau/Dev/magento-train/public_html/index.php(83): Mage::run('', 'store')
+#9 {main}
+2016-06-30T13:59:51+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Layout_Training_Block_Hello_Block' in /home/frouffineau/Dev/magento-train/public_html/app/Mage.php:595
+Stack trace:
+#0 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('layout_training...', Array)
+#2 /home/frouffineau/Dev/magento-train/public_html/app/code/local/Layout/Training/controllers/HelloController.php(12): Mage_Core_Model_Layout->createBlock('layout_training...', 'root')
+#3 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Layout_Training_HelloController->layoutAction()
+#4 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('layout')
+#5 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#6 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#7 /home/frouffineau/Dev/magento-train/public_html/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#8 /home/frouffineau/Dev/magento-train/public_html/index.php(83): Mage::run('', 'store')
+#9 {main}
+2016-06-30T14:07:31+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Layout_Training_Block_Helloblock' in /home/frouffineau/Dev/magento-train/public_html/app/Mage.php:595
+Stack trace:
+#0 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('layout_training...', Array)
+#2 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('layout_training...', 'root')
+#3 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('layout_training...', 'root')
+#4 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /home/frouffineau/Dev/magento-train/public_html/app/code/local/Layout/Training/controllers/UpdateController.php(10): Mage_Core_Model_Layout->generateBlocks()
+#6 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Layout_Training_UpdateController->indexAction()
+#7 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#8 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 /home/frouffineau/Dev/magento-train/public_html/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 /home/frouffineau/Dev/magento-train/public_html/index.php(83): Mage::run('', 'store')
+#12 {main}
+2016-06-30T14:11:14+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Layout_Training_Block_Helloblock' in /home/frouffineau/Dev/magento-train/public_html/app/Mage.php:595
+Stack trace:
+#0 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('layout_training...', Array)
+#2 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('layout_training...', 'root')
+#3 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('layout_training...', 'root')
+#4 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /home/frouffineau/Dev/magento-train/public_html/app/code/local/Layout/Training/controllers/UpdateController.php(10): Mage_Core_Model_Layout->generateBlocks()
+#6 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Layout_Training_UpdateController->indexAction()
+#7 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#8 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 /home/frouffineau/Dev/magento-train/public_html/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 /home/frouffineau/Dev/magento-train/public_html/index.php(83): Mage::run('', 'store')
+#12 {main}
+2016-06-30T14:11:16+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Layout_Training_Block_Helloblock' in /home/frouffineau/Dev/magento-train/public_html/app/Mage.php:595
+Stack trace:
+#0 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('layout_training...', Array)
+#2 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('layout_training...', 'root')
+#3 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('layout_training...', 'root')
+#4 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /home/frouffineau/Dev/magento-train/public_html/app/code/local/Layout/Training/controllers/UpdateController.php(10): Mage_Core_Model_Layout->generateBlocks()
+#6 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Layout_Training_UpdateController->indexAction()
+#7 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#8 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 /home/frouffineau/Dev/magento-train/public_html/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 /home/frouffineau/Dev/magento-train/public_html/index.php(83): Mage::run('', 'store')
+#12 {main}
+2016-06-30T14:11:46+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Layout_Training_Block_Helloblock' in /home/frouffineau/Dev/magento-train/public_html/app/Mage.php:595
+Stack trace:
+#0 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('layout_training...', Array)
+#2 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('layout_training...', 'root')
+#3 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('layout_training...', 'root')
+#4 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /home/frouffineau/Dev/magento-train/public_html/app/code/local/Layout/Training/controllers/UpdateController.php(10): Mage_Core_Model_Layout->generateBlocks()
+#6 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Layout_Training_UpdateController->indexAction()
+#7 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#8 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 /home/frouffineau/Dev/magento-train/public_html/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 /home/frouffineau/Dev/magento-train/public_html/index.php(83): Mage::run('', 'store')
+#12 {main}
+2016-06-30T14:12:55+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Layout_Training_Block_Helloblock' in /home/frouffineau/Dev/magento-train/public_html/app/Mage.php:595
+Stack trace:
+#0 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('layout_training...', Array)
+#2 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('layout_training...', 'root')
+#3 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('layout_training...', 'root')
+#4 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /home/frouffineau/Dev/magento-train/public_html/app/code/local/Layout/Training/controllers/UpdateController.php(10): Mage_Core_Model_Layout->generateBlocks()
+#6 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Layout_Training_UpdateController->indexAction()
+#7 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#8 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 /home/frouffineau/Dev/magento-train/public_html/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 /home/frouffineau/Dev/magento-train/public_html/index.php(83): Mage::run('', 'store')
+#12 {main}
+2016-06-30T14:13:04+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Layout_Training_Block_Helloblock' in /home/frouffineau/Dev/magento-train/public_html/app/Mage.php:595
+Stack trace:
+#0 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('layout_training...', Array)
+#2 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('layout_training...', 'root')
+#3 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('layout_training...', 'root')
+#4 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /home/frouffineau/Dev/magento-train/public_html/app/code/local/Layout/Training/controllers/UpdateController.php(10): Mage_Core_Model_Layout->generateBlocks()
+#6 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Layout_Training_UpdateController->indexAction()
+#7 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#8 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 /home/frouffineau/Dev/magento-train/public_html/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 /home/frouffineau/Dev/magento-train/public_html/index.php(83): Mage::run('', 'store')
+#12 {main}
+2016-06-30T14:41:11+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Core_Block_Text-list' in /home/frouffineau/Dev/magento-train/public_html/app/Mage.php:595
+Stack trace:
+#0 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('core/text-list', Array)
+#2 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('core/text-list', 'content')
+#3 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('core/text-list', 'content')
+#4 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /home/frouffineau/Dev/magento-train/public_html/app/code/local/Layout/Training/controllers/UpdateController.php(19): Mage_Core_Model_Layout->generateBlocks()
+#7 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Layout_Training_UpdateController->complexAction()
+#8 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('complex')
+#9 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#10 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#11 /home/frouffineau/Dev/magento-train/public_html/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#12 /home/frouffineau/Dev/magento-train/public_html/index.php(83): Mage::run('', 'store')
+#13 {main}
+2016-06-30T14:45:53+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Core_Block_Text-list' in /home/frouffineau/Dev/magento-train/public_html/app/Mage.php:595
+Stack trace:
+#0 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('core/text-list', Array)
+#2 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('core/text-list', 'content')
+#3 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('core/text-list', 'content')
+#4 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /home/frouffineau/Dev/magento-train/public_html/app/code/local/Layout/Training/controllers/UpdateController.php(19): Mage_Core_Model_Layout->generateBlocks()
+#7 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Layout_Training_UpdateController->complexAction()
+#8 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('complex')
+#9 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#10 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#11 /home/frouffineau/Dev/magento-train/public_html/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#12 /home/frouffineau/Dev/magento-train/public_html/index.php(83): Mage::run('', 'store')
+#13 {main}
+2016-06-30T14:46:21+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Core_Block_Text-list' in /home/frouffineau/Dev/magento-train/public_html/app/Mage.php:595
+Stack trace:
+#0 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('core/text-list', Array)
+#2 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('core/text-list', 'content')
+#3 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('core/text-list', 'content')
+#4 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /home/frouffineau/Dev/magento-train/public_html/app/code/local/Layout/Training/controllers/UpdateController.php(19): Mage_Core_Model_Layout->generateBlocks()
+#7 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Layout_Training_UpdateController->complexAction()
+#8 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('complex')
+#9 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#10 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#11 /home/frouffineau/Dev/magento-train/public_html/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#12 /home/frouffineau/Dev/magento-train/public_html/index.php(83): Mage::run('', 'store')
+#13 {main}
+2016-06-30T14:50:07+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Layout_Training_Block_Hello_Block' in /home/frouffineau/Dev/magento-train/public_html/app/Mage.php:595
+Stack trace:
+#0 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('layout_training...', Array)
+#2 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('layout_training...', 'root')
+#3 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('layout_training...', 'root')
+#4 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /home/frouffineau/Dev/magento-train/public_html/app/code/local/Layout/Training/controllers/UpdateController.php(19): Mage_Core_Model_Layout->generateBlocks()
+#6 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Layout_Training_UpdateController->complexAction()
+#7 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('complex')
+#8 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 /home/frouffineau/Dev/magento-train/public_html/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 /home/frouffineau/Dev/magento-train/public_html/index.php(83): Mage::run('', 'store')
+#12 {main}
+2016-06-30T14:50:07+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Layout_Training_Block_Hello_Block' in /home/frouffineau/Dev/magento-train/public_html/app/Mage.php:595
+Stack trace:
+#0 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('layout_training...', Array)
+#2 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('layout_training...', 'additional_head')
+#3 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('layout_training...', 'additional_head')
+#4 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /home/frouffineau/Dev/magento-train/public_html/app/code/local/Layout/Training/controllers/UpdateController.php(19): Mage_Core_Model_Layout->generateBlocks()
+#7 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Layout_Training_UpdateController->complexAction()
+#8 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('complex')
+#9 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#10 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#11 /home/frouffineau/Dev/magento-train/public_html/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#12 /home/frouffineau/Dev/magento-train/public_html/index.php(83): Mage::run('', 'store')
+#13 {main}
+2016-06-30T14:50:07+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Layout_Training_Block_Hello_Block' in /home/frouffineau/Dev/magento-train/public_html/app/Mage.php:595
+Stack trace:
+#0 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('layout_training...', Array)
+#2 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('layout_training...', 'sidebar')
+#3 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('layout_training...', 'sidebar')
+#4 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /home/frouffineau/Dev/magento-train/public_html/app/code/local/Layout/Training/controllers/UpdateController.php(19): Mage_Core_Model_Layout->generateBlocks()
+#7 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Layout_Training_UpdateController->complexAction()
+#8 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('complex')
+#9 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#10 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#11 /home/frouffineau/Dev/magento-train/public_html/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#12 /home/frouffineau/Dev/magento-train/public_html/index.php(83): Mage::run('', 'store')
+#13 {main}
+2016-06-30T14:50:07+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Core_Block_Text-list' in /home/frouffineau/Dev/magento-train/public_html/app/Mage.php:595
+Stack trace:
+#0 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('core/text-list', Array)
+#2 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('core/text-list', 'content')
+#3 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('core/text-list', 'content')
+#4 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /home/frouffineau/Dev/magento-train/public_html/app/code/local/Layout/Training/controllers/UpdateController.php(19): Mage_Core_Model_Layout->generateBlocks()
+#7 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Layout_Training_UpdateController->complexAction()
+#8 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('complex')
+#9 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#10 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#11 /home/frouffineau/Dev/magento-train/public_html/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#12 /home/frouffineau/Dev/magento-train/public_html/index.php(83): Mage::run('', 'store')
+#13 {main}
+2016-06-30T14:53:39+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Core_Block_Text-list' in /home/frouffineau/Dev/magento-train/public_html/app/Mage.php:595
+Stack trace:
+#0 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('core/text-list', Array)
+#2 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('core/text-list', 'content')
+#3 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('core/text-list', 'content')
+#4 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /home/frouffineau/Dev/magento-train/public_html/app/code/local/Layout/Training/controllers/UpdateController.php(19): Mage_Core_Model_Layout->generateBlocks()
+#7 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Layout_Training_UpdateController->complexAction()
+#8 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('complex')
+#9 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#10 /home/frouffineau/Dev/magento-train/public_html/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#11 /home/frouffineau/Dev/magento-train/public_html/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#12 /home/frouffineau/Dev/magento-train/public_html/index.php(83): Mage::run('', 'store')
+#13 {main}

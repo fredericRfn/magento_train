@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <block type="core/template" name="root" template="simple-page/2col.phtml" output="toHtml">
+        <block type="core/template" name="additional_head" template="simple-page/head.phtml"/>
+        <block type="core/template" name="sidebar">
+            <action method="setTemplate">
+                <template>simple-page/sidebar.phtml</template>
+            </action>
+        </block>
+        <block type="core/text-list" name="content" />
+    </block>
+</layout>

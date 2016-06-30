@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <global>
+        <blocks>
+            <layout_training>
+                <class>Layout_Training_Block</class>
+            </layout_training>
+        </blocks>
+    </global>
+
+    <frontend>
+        <routers>
+            <layout_training>
+                <use>standard</use>
+                <args>
+                    <module>Layout_Training</module>
+                    <frontName>training</frontName>
+                </args>
+            </layout_training>
+        </routers>
+    </frontend>
+</config>
